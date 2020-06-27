@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(100deg,orange,rgb(190, 90, 54));
+}
+
+.one{
+    padding-top: 20%;
+}
+
+.form-control:focus {
+    border: 1px solid black;
+    box-shadow: none;
+
+}
+
+.btn-group{
+    position: absolute;
+    right:.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list-group li:nth-child(odd){
+    background-color: rgb(231, 222, 222);
+}
+
+.decorate{
+    text-decoration: line-through !important;
+}
+
+span{
+    pointer-events: none;
+}
+
+.animae{
+    transition: opacity 1s,transform 1s ease-in;
+    opacity: 0;
+    transform-origin:top left;
+    transform:rotate(60deg);
+    
+}
+
+
+
+
+
